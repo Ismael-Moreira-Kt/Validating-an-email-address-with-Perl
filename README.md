@@ -32,7 +32,7 @@
 		my $email = shift;
 
 		unless(Email::Valid->address($email)) {
-				print "Parece que o email $email não é válido.\n";
+			print "Parece que o email $email não é válido.\n";
 		}
 	}
 
