@@ -40,7 +40,7 @@
 	validar($second_email_address);
 ```
 - Sub validar -> Função usada para guardar o método de validação de email.
-- $email -> Variável usada para guardar o email a ver validado:
+- $email -> Variável usada para guardar o email a ser validado:
 	- Shif: É uma função nativa do Perl, neste caso usamos para retirar o primeiro parâmetro usado ao chamar a função para usar como variável. 
 - Email::Valid->address($email):
 	- Address:  é um método da classe Email::Valid responsável por validar endereços de email;
